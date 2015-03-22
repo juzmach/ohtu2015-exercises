@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ohtu.verkkokauppa</OriginalElement>
+  <nodes>
+    <node x="14.0" y="48.0">ohtu.verkkokauppa.Ostoskori</node>
+    <node x="70.0" y="351.0">ohtu.verkkokauppa.Pankki</node>
+    <node x="238.0" y="270.0">ohtu.verkkokauppa.Viitegeneraattori</node>
+    <node x="-220.0" y="277.0">ohtu.verkkokauppa.Kirjanpito</node>
+    <node x="273.0" y="93.0">ohtu.verkkokauppa.Kauppa</node>
+    <node x="-179.0" y="82.0">ohtu.verkkokauppa.Tuote</node>
+    <node x="19.0" y="218.0">ohtu.verkkokauppa.Varasto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ohtu.verkkokauppa.Kauppa" target="ohtu.verkkokauppa.Pankki">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ohtu.verkkokauppa.Ostoskori" target="ohtu.verkkokauppa.Tuote">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ohtu.verkkokauppa.Kauppa" target="ohtu.verkkokauppa.Varasto">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ohtu.verkkokauppa.Kauppa" target="ohtu.verkkokauppa.Viitegeneraattori">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ohtu.verkkokauppa.Varasto" target="ohtu.verkkokauppa.Kirjanpito">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ohtu.verkkokauppa.Kauppa" target="ohtu.verkkokauppa.Ostoskori">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ohtu.verkkokauppa.Pankki" target="ohtu.verkkokauppa.Kirjanpito">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ohtu.verkkokauppa.Varasto" target="ohtu.verkkokauppa.Tuote">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="116.0" y="125.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
